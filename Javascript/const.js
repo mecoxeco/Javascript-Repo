@@ -3,7 +3,7 @@ const name = 'júlia';
 const age = 29;
 const hasHobbies = true;
 
-age = 30;
+age = 30; // this is trying to change the value of const 29 so we will get an error
 
 function summarizeUser(userName, userAge, userHasHobbies) {
   return (
